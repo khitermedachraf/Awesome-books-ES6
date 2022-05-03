@@ -1,4 +1,4 @@
-import Store from "./store.js"
+import Store from './store.js';
 // UI Class: Handle UI Tasks
 class UI {
   static displayBooks() {
@@ -33,4 +33,4 @@ class UI {
   }
 }
 
-export default UI; 
+export default UI;

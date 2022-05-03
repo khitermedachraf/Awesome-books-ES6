@@ -1,13 +1,11 @@
-import { DateTime } from "./modules/luxon.js";
-import Book from "./modules/book.js"
-import UI from "./modules/ui.js"
-import Store from "./modules/store.js"
+import { DateTime } from './modules/luxon.js';
+import Book from './modules/book.js';
+import UI from './modules/ui.js';
+import Store from './modules/store.js';
 
-
-// define the current local time 
+// define the current local time
 const currentDate = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
 document.getElementById('current-date').innerHTML = currentDate;
-
 
 // Event: Display Books
 document.addEventListener('DOMContentLoaded', UI.displayBooks);
@@ -47,7 +45,7 @@ document.querySelector('#book-list').addEventListener('click', (e) => {
 const bookList = document.querySelector('.book-list-container');
 const listBtn = document.querySelector('.listBtn');
 const formContainer = document.querySelector('.form-container');
-
+const contactInfo = document.querySelector('.contact-info');
 
 listBtn.addEventListener('click', () => {
   bookList.style.display = 'block';
@@ -71,8 +69,6 @@ addNewBtn.addEventListener('click', () => {
 
 // display the  Contact section when click the button "Contact"
 const contactBtn = document.querySelector('.contact');
-const contactInfo = document.querySelector('.contact-info');
-
 contactBtn.addEventListener('click', () => {
   bookList.style.display = 'none';
   formContainer.style.display = 'none';
