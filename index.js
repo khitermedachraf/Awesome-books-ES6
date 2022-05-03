@@ -1,4 +1,7 @@
 import { DateTime } from "./modules/luxon.js";
+import Book from "./modules/book.js"
+import UI from "./modules/ui.js"
+import Store from "./modules/store.js"
 
 
 
