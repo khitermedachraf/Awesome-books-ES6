@@ -2,7 +2,7 @@
 
 # Project Name : Awesome books
 
->"**Awesome books**" is a simple website that displays a list of books and allows you to add and remove books from that list. By building this application, you will learn how to manage data using JavaScript. Thanks to that your website will be more interactive. You will also use a medium-fidelity wireframe to build the UI.is a simple website that displays a list of books and allows you to add and remove books from that list. By building this application, you will learn how to manage data using JavaScript. Thanks to that your website will be more interactive. You will also use a medium-fidelity wireframe to build the UI.
+>"Awesome books" is a simple website that displays a list of books, It allows user to add and remove books from that list. By building this application, you will learn how to manage data using JavaScript. Thanks to that your website will be more interactive. You will also use a medium-fidelity wireframe to build the UI.is a simple website that displays a list of books and allows you to add and remove books from that list. It uses simple GUI (medium-fidelity wireframe) and relies on DOM manipulation in pure JS and using local storage.
 
 <p align="center">
   <img src="https://github.com/microverseinc/curriculum-javascript/blob/main/books/images/awesome_books_full_website.png" alt="Full website" />
